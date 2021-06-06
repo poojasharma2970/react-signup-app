@@ -1,0 +1,68 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Spartan:wght@300;400;700;800;900&display=swap');
+
+/* CSS Files */
+@import './components/css/form.css';
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+/* Home Page */
+.home{
+   display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+   text-align: center;
+	height: 90vh;
+	width: 100vw;
+   margin-top: -5%;
+   font-weight: 400;
+}
+
+.home p {
+   position: relative;
+   font-size: 2rem;
+}
+
+.home h1 {
+   position: relative;
+   font-family: 'Spartan', sans-serif;
+   font-size: 5rem;
+   letter-spacing: 3px;
+   font-weight: 800;
+   color: #0275d8;
+}
+
+.home h3 {
+   position: relative;
+   font-size: 1.75rem;
+}
+
+/* Navbar */
+.navbar {
+   margin: 7px 15px;
+   padding: 45px 30px;
+   height: 60px;
+}
+
+.navbar-brand {
+   font-family: 'Spartan', sans-serif;
+   letter-spacing: 3px;
+   font-weight: 800;
+}
+
+.nav-link .btn {
+   font-size: 15px;
+   letter-spacing: 1px;
+   font-weight: 600;
+   padding: 10px 15px;
+   border-radius: 10px;
+}
+
