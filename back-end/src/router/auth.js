@@ -75,7 +75,7 @@ router.post('/login', async (req, res) => {
                     res.json({ message: `Login Successfull` });
                }
           } else {
-               res.status(400).json({ message: `Account doesn't exist. Enter a different account` });
+               res.status(400).json({ message: `Account doesn't exist. Please check your details.` });
           }
 
      } catch (err) {
